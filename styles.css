@@ -1,0 +1,86 @@
+/* Global */
+
+      html,
+      body {
+        text-decoration: none !important;
+        background: #999;
+        font-family: "source-code-pro", monospace;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 1em;
+        letter-spacing: .03em;
+        text-align: left;
+        color: #000;
+        margin: 0;
+        padding: 0;
+          height: 100%;
+      }
+
+    .padding--medium{
+    padding-top:40px;
+    padding-left: 40px;
+    }
+
+a {
+    color:#000;
+    text-decoration: none;
+    line-height: 11pt;
+}
+
+a:hover {
+    color:#fff; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+/* iPad */
+
+@media screen and (max-width:1000px){
+
+
+.desktop{display: none;}
+.mobile{display: block;}
+
+    .padding--medium{
+    padding-left: 40px;
+    padding-right: 40px;
+        height: auto;
+    }
+    
+     .swiper-slide img {
+  margin: auto;
+  max-width: 95%;
+    }
+    
+    .video  {
+  margin: auto;
+  max-width: 100%;  
+  position: fixed;
+
+}
+    
+    }
+    
+
+/* Mobile */
+
+@media screen and (max-width:320px){
+
+.desktop{display: none;}
+.mobile{display: block;}
+
+    .padding--medium{
+    padding-top:25px;
+    padding-left: 30px;
+    }
+    
+
+
+    
+     .swiper-slide img {
+  margin: auto;
+  max-width: 95%;
+    }
+    
+    }
